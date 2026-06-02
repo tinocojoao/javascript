@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Desafio Aula 17</title>
+
+    <style>
+        body{
+            font: normal 20px Arial;
+        }
+        div{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <label for="txtn1">País: </label> <input type="text" id="txtn1">
+    <input type="button" value="Verificar" id="button">
+    <div id="res">
+
+    </div>
+
+    <script>
+        window.document.getElementById('button').addEventListener('click', verificar)
+
+        function verificar(){
+            var txtPais = window.document.getElementById('txtn1')
+            var pais = txtPais.value
+            if(pais == 'Brasil'){
+                window.document.getElementById('res').innerHTML = `Você é Brasileiro`
+            } else{
+                window.document.getElementById('res').innerHTML = `Você é Estrangeiro`
+            }
+        }
+    </script>
+</body>
+</html>
