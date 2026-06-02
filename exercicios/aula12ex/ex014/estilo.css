@@ -8,6 +8,7 @@ body{
 header{
     color: white;
     text-align: center;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
 }
 
 section{
@@ -19,8 +20,25 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
 }
 
+div#msg{
+    text-align: center;
+    margin-bottom: 10px;
+    font: normal 1.1em Arial;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.356);
+}
+
+#imagem{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
 footer{
     color: white;
     text-align: center;
     font-style: italic;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
 }
