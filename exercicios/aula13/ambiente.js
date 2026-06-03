@@ -1,14 +1,8 @@
-var c = 1
-while (c <= 6){
-    console.log('tudo bem?')
-    c++ // c = c + 1 
+var c = 2
+while (c <= 20){
+    console.log(`Passo ${c}`)
+    c += 2
 }
-
-
-
-
-
-
 
 
 
