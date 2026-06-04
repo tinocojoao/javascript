@@ -19,6 +19,14 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
 }
 
+.entrada{
+    margin-bottom: 20px;
+}
+
+div#res{
+    margin-top: 15px;
+}
+
 footer{
     color: white;
     text-align: center;
