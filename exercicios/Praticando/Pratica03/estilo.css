@@ -8,6 +8,7 @@ body{
 header{
     color: white;
     text-align: center;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
 }
 
 section{
@@ -31,4 +32,5 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
 }
